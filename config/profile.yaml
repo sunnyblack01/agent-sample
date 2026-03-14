@@ -1,0 +1,35 @@
+# 학생 프로필
+student:
+  grade: 고2
+  career_goal: AI/인공지능 학과
+  physics_level: 역학 기본 (비역학 미학습)
+
+# 진로 연결 전략
+career_strategy:
+  core_keyword: "데이터 기반 문제 해결, 패턴 인식, 예측, 분류, 최적화"
+  narrative: "모든 과목에서 AI적 사고방식(데이터 수집 → 패턴 발견 → 예측/분류)을 일관되게 보여준다"
+
+# 과목별 범위 (학생이 업데이트)
+subjects:
+  화학:
+    curriculum: 2022 개정 교육과정
+    semester: 1학기
+    units: []  # 학생이 단원명 입력
+  물리:
+    units: []
+  수학:
+    units: []
+  생물:
+    units: []
+
+# 보고서 제약 조건
+constraints:
+  - AI가 작성한 티가 나면 안 됨
+  - 진로(AI)가 자연스럽게 드러나야 함
+  - 해당 과목의 전문성이 살아야 함
+  - 참고 문헌/책 반드시 포함
+
+# 워크플로우
+workflow:
+  with_experiment: [주제발굴, 주제선택, 자료조사, 실험설계, 실험수행, 보고서작성, 어투다듬기]
+  without_experiment: [주제발굴, 주제선택, 자료조사, 보고서작성, 어투다듬기]

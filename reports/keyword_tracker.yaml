@@ -1,0 +1,15 @@
+# AI 키워드 추적기
+# 과목별로 사용한 AI 연결 키워드를 기록하여 일관성 유지
+
+used_keywords: []
+
+# 예시:
+# - subject: 화학
+#   topic: "결합별 물질 성질 분류"
+#   keywords: [분류(Classification), 특성(Feature), 패턴 인식]
+#   date: 2026-03-14
+#
+# - subject: 물리
+#   topic: "운동 데이터로 궤적 예측"
+#   keywords: [예측(Prediction), 회귀분석, 데이터 모델링]
+#   date: 2026-04-10
